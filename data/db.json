@@ -1,0 +1,176 @@
+{
+  "users": [
+    {
+      "id": "user-admin-1",
+      "name": "Store Administrator",
+      "email": "admin@chaldal.com",
+      "password": "admin123",
+      "role": "admin",
+      "phone": "+8801975300759",
+      "address": "Chaldal HQ, Plot 14, Block C, Banani",
+      "city": "Dhaka",
+      "createdAt": "2026-09-24T12:45:38.291Z"
+    },
+    {
+      "id": "user-customer-1",
+      "name": "Rahim Chowdhury",
+      "email": "customer@chaldal.com",
+      "password": "customer123",
+      "role": "customer",
+      "phone": "01711223344",
+      "address": "House 24, Road 5, Dhanmondi",
+      "city": "Dhaka",
+      "createdAt": "2026-09-24T12:45:38.293Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Chinigura Rice Premium",
+      "price": 139,
+      "originalPrice": 155,
+      "unit": "1 kg",
+      "category": "Groceries",
+      "image": "https://chaldn.com/_mpimage/chinigura-rice-premium-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48071&q=best&v=1&m=400&webp=1",
+      "inStock": true,
+      "description": "Aromatic fine grain Chinigura rice, perfect for special biryani, polao, and festive dishes."
+    },
+    {
+      "id": "prod-2",
+      "name": "Chicken Eggs (Discounted)",
+      "price": 99,
+      "originalPrice": 120,
+      "unit": "12 pcs",
+      "category": "Groceries",
+      "image": "https://i.chaldn.com/_mpimage/chicken-eggs-discounted-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D77392&q=best&v=1&m=400",
+      "inStock": true,
+      "description": "Farm fresh brown layer chicken eggs, sorted and safely packed for daily nutrition."
+    },
+    {
+      "id": "prod-3",
+      "name": "Potato Regular",
+      "price": 23,
+      "originalPrice": 30,
+      "unit": "1 kg",
+      "category": "Vegetables",
+      "image": "https://chaldn.com/_mpimage/potato-regular-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D164304&q=best&v=1&m=400&webp=1",
+      "inStock": true,
+      "description": "Freshly harvested local potatoes, clean and medium-sized for everyday cooking."
+    },
+    {
+      "id": "prod-4",
+      "name": "Moshur Dal Imported",
+      "price": 55,
+      "originalPrice": 65,
+      "unit": "500 gm",
+      "category": "Groceries",
+      "image": "https://chaldn.com/_mpimage/moshur-dal-imported-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182353&q=best&v=1&m=400&webp=1",
+      "inStock": true,
+      "description": "Premium quality imported red lentils (moshur dal), clean and fast cooking."
+    },
+    {
+      "id": "prod-5",
+      "name": "Red Tomato Fresh",
+      "price": 35,
+      "originalPrice": 45,
+      "unit": "500 gm",
+      "category": "Vegetables",
+      "image": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1&m=400&webp=1",
+      "inStock": true,
+      "description": "Ripe, juicy red tomatoes handpicked directly from selected local growers."
+    },
+    {
+      "id": "prod-6",
+      "name": "Deshi Gajor (Local Carrot)",
+      "price": 29,
+      "originalPrice": 40,
+      "unit": "500 gm",
+      "category": "Vegetables",
+      "image": "https://chaldn.com/_mpimage/deshi-gajor-local-carrot-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64363&q=best&v=1&m=400&webp=1",
+      "inStock": true,
+      "description": "Crisp and naturally sweet local carrots, ideal for salads, cooking, or fresh juices."
+    },
+    {
+      "id": "prod-7",
+      "name": "Lal Shak (Red Spinach)",
+      "price": 25,
+      "originalPrice": 35,
+      "unit": "1 bundle",
+      "category": "Vegetables",
+      "image": "https://chaldn.com/_mpimage/lal-shak-red-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7226&q=low&v=1&m=400&webp=1",
+      "inStock": true,
+      "description": "Freshly cut green and red leafy spinach, rich in iron and dietary antioxidants."
+    },
+    {
+      "id": "prod-8",
+      "name": "Fresh Red Onion (Deshi Piaj)",
+      "price": 65,
+      "originalPrice": 80,
+      "unit": "1 kg",
+      "category": "Groceries",
+      "image": "https://chaldn.com/_mpimage/onion-local-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D129631&q=best&v=1&m=400&webp=1",
+      "inStock": true,
+      "description": "Pungent local red onions essential for rich curries and traditional Bengali tadka."
+    },
+    {
+      "id": "prod-9",
+      "name": "Fresh Green Chili (Kacha Morich)",
+      "price": 30,
+      "originalPrice": 40,
+      "unit": "250 gm",
+      "category": "Vegetables",
+      "image": "https://chaldn.com/_mpimage/green-chilli-25-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64365&q=best&v=1&m=400&webp=1",
+      "inStock": true,
+      "description": "Spicy and crisp farm fresh green chilies packed with vitamin C."
+    },
+    {
+      "id": "prod-10",
+      "name": "Pure Mustard Oil (Shorishar Tel)",
+      "price": 185,
+      "originalPrice": 210,
+      "unit": "500 ml",
+      "category": "Oil & Ghee",
+      "image": "https://chaldn.com/_mpimage/radhuni-pure-mustard-oil-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D58113&q=best&v=1&m=400&webp=1",
+      "inStock": true,
+      "description": "Cold-pressed pure mustard oil offering authentic traditional aroma and flavor."
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-94812",
+      "userId": "user-customer-1",
+      "customerName": "Rahim Chowdhury",
+      "customerEmail": "customer@chaldal.com",
+      "customerPhone": "01711223344",
+      "deliveryAddress": "House 24, Road 5, Dhanmondi",
+      "city": "Dhaka",
+      "items": [
+        {
+          "productId": "prod-1",
+          "name": "Chinigura Rice Premium",
+          "price": 139,
+          "quantity": 2,
+          "image": "https://chaldn.com/_mpimage/chinigura-rice-premium-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48071&q=best&v=1&m=400&webp=1"
+        },
+        {
+          "productId": "prod-2",
+          "name": "Chicken Eggs (Discounted)",
+          "price": 99,
+          "quantity": 1,
+          "image": "https://i.chaldn.com/_mpimage/chicken-eggs-discounted-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D77392&q=best&v=1&m=400"
+        }
+      ],
+      "totalAmount": 377,
+      "deliveryFee": 0,
+      "paymentMethod": "bKash",
+      "bkashNumber": "01711223344",
+      "bkashTrxId": "BKASH9X738A",
+      "paymentStatus": "Verified",
+      "status": "Delivered",
+      "notes": "Please deliver before 6 PM",
+      "createdAt": "2026-09-22T12:45:38.293Z",
+      "updatedAt": "2026-09-23T12:45:38.293Z"
+    }
+  ],
+  "chatMessages": {}
+}

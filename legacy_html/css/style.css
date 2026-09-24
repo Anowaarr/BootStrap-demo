@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li {
+    list-style: none;
+}
+body{
+     font-family: "Space Mono", monospace;
+}
+h1{
+    font-style: italic;
+    color: #015425eb;
+    font-weight: bold;
+    font-size: 60px;
+    justify-content: center;
+    display: grid;
+    padding-top: 80px;
+}
+h5{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+h3{
+    color: #ffffff;
+}
+/* nav */
+.navbar-brand img{
+    width: 160px;
+}
+#navbarSupportedContent{
+    font-size: 22px;
+}
+.btn-dark{
+    background: #000000;
+    width: 150px;
+}
+/* carousel */
+.carousel-inner{
+    background-color: rgba(255, 0, 0, 0.196);
+    height: 800px;
+}
+.carousel-caption {
+    bottom: 8.25rem;
+}
+.arrow{
+    font-size: 60px;color: #015425eb;
+}
+/* products */
+.products{
+    justify-content: center;
+    padding-top: 80px;
+}
+.nadim{
+    padding-top: 20px;;
+    display: flex;
+    justify-content: space-between;
+}
+.nadim2{
+    padding-top: 50px;;
+    display: flex;
+    justify-content: space-between;
+}
+.card-body h6{
+    font-weight: bold;
+    font-size: 18px;
+}
+/* services */
+.my-5{
+    padding-top: 50px;
+}
+/* }achivements */
+.achives{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 210px;
+}
+.card-header{
+    background-color: #0000002f;
+}
+/* review */
+.review-container{
+    justify-content: center;
+}
+.overall-rating{
+    display: flex;
+}
+.star{
+    font-size: 25px;
+    color: #ffc800;
+}
+/* footer */
+footer{
+    padding-top: 20px;
+    background-color: #00471829;
+    box-sizing: border-box; 
+}
+.foot-head{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-head img{
+    height: 80px;
+}
+.btn-outline-success{
+    height: 40px;
+}
+.foot-mid{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.nich li:first-child{
+    color: #023d21;
+    font-weight: bold;
+    font-size: x-large;
+}
+.footer-end{
+    justify-content: center;
+}
+.kii img{
+    height: 30px;
+}
+.kii2 img{
+    height: 40px;
+}
+.icons2{
+    font-size: 1.5rem;
+}
